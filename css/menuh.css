@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.sub
+	{
+	margin:15px 0 0 20px;
+	text-align: left;
+	background-color:#e51a22;
+	}
+.sub a:hover
+	{
+	margin:15px 0 0 20px;
+	text-align: left;
+	background-color:#c7131a;
+	}
+
+
+#menuh-container
+	{
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+
+	}
+
+#menuh
+	{
+	font-size: 15px;
+	font-family: "GOTY0", "GOTY1", "GOTY2", "GOTY3";
+	height:60px;
+	
+	}
+		
+#menuh a
+	{
+	text-align: center;
+	display:block;
+	white-space:nowrap;
+	margin:0;
+	
+	}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
+	{
+	color: #CCC;		/* royal blue */
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	
+	
+	}
+	
+#menuh a:hover						/* menu on mouse-over  */
+	{
+	
+	color:#FFF;
+	
+	}	
+	
+#menuh a.top_parent, #menuh a.top_parent:hover  /* attaches down-arrow to all top-parents */
+	{
+
+	}
+	
+#menuh a.parent, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
+	{
+		color:#FFF;
+	}
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0 20px 0 0;
+	padding:0;
+	float:left;
+	width:auto;/* width of all menu boxes */
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+	
+#menuh ul a:hover
+	{
+	list-style:none;
+	background-image:url(img/productos2.png);
+	margin:-50px 20px 0 0;
+	margin:0 20px 0 0;
+	padding:0;
+	float:left;
+	width:auto;/* width of all menu boxes */
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	position:relative;
+
+
+	/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	
+	
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
+
+
+
+
+
+
+
+
+ * {
+	padding: 0;
+	vertical-align: bottom;
+	margin-top: 10;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	border: none;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	background-color:#303030;
+	line-height: 20px;
+} 
+#page-wrap {
+    width: 200px;
+    margin: 25px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+	color: #FFF;
+}
+
+/*
+ LEVEL ONE
+ */
+ul.dropdown {
+    position: relative;
+	z-index:2;
+	
+	
+	
+}
+
+ul.dropdown li {
+    float: left;
+}
+
+ul.dropdown a:hover {
+    color: #000;
+}
+
+ul.dropdown a:active {
+    color: #ffa500;
+	
+}
+
+ul.dropdown li a {
+    display: block;
+ color: #fff;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.2);
+}
+
+ul.dropdown li:last-child a {
+    border-right: none;
+}
+ /* Doesn't work in IE */
+ul.dropdown li.hover, ul.dropdown li:hover {
+
+    color: black;
+    position: relative;
+    color:#fff;
+}
+
+ul.dropdown li.hover a {
+    color: #fff;
+	
+}
+
+
+
+/*
+EMPRESA
+ */
+
+.empresa{
+background-color: none;
+}
+
+.empresa:hover {
+background: url(../img/empresaback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.linav {
+color:#FFFFFF;
+} 
+
+/*
+PRODUCTOS
+ */
+
+.productos{
+background-color: none;
+}
+
+.productos:hover {
+background: url(../img/prodback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.prod {
+color:#FFFFFF;
+} 
+
+/*
+ARROZ
+ */
+
+.arroz{
+background-color: none;
+}
+
+.arroz:hover {
+background: url(../img/arrozback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.rice {
+color:#FFFFFF;
+} 
+
+/*
+SALUD PARA
+ */
+
+.salud{
+background-color: none;
+}
+
+.salud:hover {
+background: url(../img/saludback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.salud {
+color:#FFFFFF;
+} 
+
+/*
+RECETARIO
+ */
+
+.recetas{
+background-color: none;
+}
+
+.recetas:hover {
+background: url(../img/recetaback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.rece {
+color:#FFFFFF;
+} 
+
+
+/*
+CONTACTO
+ */
+
+.contacto{
+background-color: none;
+}
+
+.contacto:hover {
+background: url(../img/contaback.png) repeat-x top left;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+ul {
+margin:0;
+padding:0;
+}
+
+ul.nav {
+list-style:none;
+color:#FFFFFF;
+}
+
+li.cont {
+color:#FFFFFF;
+} 
+
+
+/*
+ LEVEL TWO
+ */
+ul.dropdown ul {
+	font-family: "GOTY0", "GOTY1", "GOTY2", "GOTY3", verdana;
+	font-size: 11px;
+	width: 135px;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	line-height: 13px;
+}
+
+
+
+/* SUBMENU*/
+ul.dropdown ul li {
+    font-weight: normal;
+    background: #e51a22;
+    color: #000;
+	padding: 5px 10px 5px 10px;
+    float: none;
+}
+
+ul.submenu li.hover, ul.submenu li:hover {
+    color: black;
+    position: relative;
+    color:#fff;
+	background:#900;
+	
+}
+
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a {
+    border-right: none;
+	
+    width: 100%;
+    display: inline-block;
+}
+
+/*
+ LEVEL THREE
+ */
+ul.dropdown ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.dropdown li:hover > ul {
+    visibility: visible;
+}

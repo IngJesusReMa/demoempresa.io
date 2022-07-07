@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	margin-top: 0px;
+	text-align: center;
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	
+	
+}
+#menuh{float:none;}
+body{
+	behavior:url(csshover.htc);
+	font-size:100%;
+	color: #333;
+}	
+#menuh ul li{
+	width: 100%;
+	height: 100%;
+}
+#menuh a{
+display:block;
+height:0%;
+
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+
+#headerberry {
+	height: 60px;
+	padding-top: 20px; padding-bottom: 20px;
+	text-align: center;
+	background: #405580;
+}
+#headerberry h1 {
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1140px;
+}
+#doc { 
+    margin: 40px 0; 
+}
+#contentberry {
+	margin: 0 auto;
+	min-width: 254px;
+	max-width: 1140px;
+}
+
+.blueberry {
+     max-width: 960px; 
+    }
+
+
+
+
+
+@font-face {
+ font-family: "GOTY0";
+ src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "GOTY1";
+ src: url("fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+@font-face {
+ font-family: "GOTY2";
+ src: url("fonts/OpenSans-Bold.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "GOTY3";
+    src: url("fonts/OpenSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "GOTY4";
+    src: url("fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+
+
+#header {
+	color: #CCC;
+	width: 1095px;
+	height: 340px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	
+}
+
+#header .inicio {
+    background-image: url(../img/header_index.png);
+	background-position: center bottom;
+}
+
+#right {
+	width:25%;
+	height: 100%;
+	text-align: left;
+	float: right;
+	vertical-align: middle;
+	background-image: url(img/degradado.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-right: 30px;
+}
+
+#left {
+	width:25%;
+	height: 430px;
+	text-align: left;
+	float: left;
+	background-image: url(/img/degradado.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+.sidebarencuesta{
+	width:150px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border:#F09 1px;
+	
+}
+
+.sidebartip {
+	width:200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(/img/recetario/backtip.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+
+
+#sidebarlong {
+	width:260px;
+	height: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(/img/backsidebarlong.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center bottom;
+}
+
+#center {
+	width:420px;
+	height: auto;
+	text-align: center;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	}
+
+
+#menu {
+	width:1095px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	height: 80px;
+	float: none;
+	margin-top: 140px;
+	background-image: url(../img/menu_back.png);
+	background-repeat: no-repeat;
+
+}
+
+#botones {
+	width:810px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	height: 80px;
+	float: none;
+	margin-top: 0px;
+}
+
+#contenido {
+	width:1065px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	height: 470px;
+	float: none;
+	margin-top: 0px;
+	background-color:#FFF;
+}
+
+
+#footer {
+	width: 1065px;
+	height: 25px;
+	background-color:#1d7e43;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 8px;
+}
+
+
+.texto {
+	font-family: "GOTY0", "GOTY1", "GOTY2", "GOTY3", verdana;
+	font-size: 13px;
+	color: #333;
+	line-height: 18px;
+}
+
+
+.textoblanco {
+	font-family: "GOTY0", "GOTY1", "GOTY2", "GOTY3", verdana;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 16px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+a {
+    color: rgb(213, 213, 223);
+}
+
+
+
+label {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	padding-left: 30px;
+	width: 90px;
+	font-size: 1em;
+	font-family: "GOTY0", "GOTY1", "GOTY2", "GOTY3", verdana;
+	color: #fff;
+}
+
+fes
+/*ENCUESTA: */
+
+
+
+fieldset {
+	
+	width: 140px;
+	margin: 0 0 0 50px;
+	padding: 10px;
+	border: 1px solid #ff0099;	
+	text-align: left;
+	display: block; /* IE 7 Requires This */
+	}
+	legend {
+		padding: 4px 6px 4px 6px;
+		font-size: .8em;
+		color: #fff;
+		text-align: center;
+	}
+	
+
+
+.results-bar {
+	padding: 10px;
+	color: white;
+	white-space: nowrap;
+}
+
+span.total-votes {
+	font-size: 1.2em;
+	color: #ffcc00;
+}
